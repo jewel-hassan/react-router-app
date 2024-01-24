@@ -1,0 +1,11 @@
+.friends-content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:1rem;
+   
+}
+@media screen and (max-width:576px) {
+    .friends-content{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,12 @@
+.friend-info{
+    
+    border: 1px solid #000;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 1rem;
+    background-color: goldenrod;
+    font-weight: bold;
+   
+   
+}
