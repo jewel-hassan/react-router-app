@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css"
+import ActiveLink from "../Activelink/ActiveLink";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,20 +16,20 @@ const Header = () => {
 
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <Link to="/">Home</Link>
+          <ActiveLink to="/">Home</ActiveLink>
         </li>
         <li>
-          <Link to="/friends">Friends</Link>
+          <ActiveLink to="/friends">Friends</ActiveLink>
         </li>
         <li>
           {" "}
-          <Link to="/about">About</Link>
+          <ActiveLink to="/about">About</ActiveLink>
         </li>
         <li>
-          <Link to="/posts">Posts</Link>
+          <ActiveLink to="/posts">Posts</ActiveLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <ActiveLink to="/contact">Contact</ActiveLink>
         </li>
       </ul>
     </nav>
