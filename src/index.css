@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.container {
+/* .container {
   background-color: rgba(0, 115, 255, 0.978);
   padding: 1rem;
 }
@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 h1 {
   color: #fff;

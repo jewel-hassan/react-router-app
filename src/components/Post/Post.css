@@ -1,3 +1,36 @@
 .details-text a{
-    color:#000;
+    color:#fff;
+    font-size: .8rem;
+    transition: .3s color;
+}
+
+.details-text:hover a{
+    color:gray;
+}
+.post-child{
+    background-color: tomato;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    
+    
+}
+button{
+    margin-left: 1rem;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color:#fff;
+    transition: .3s color;
+}
+button:hover{
+    color:gray;
+}
+.btn-button{
+    position: absolute;
+    top: 70%;
+    
+    
+    
 }
